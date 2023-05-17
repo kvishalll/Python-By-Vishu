@@ -13,4 +13,3 @@ random_line = random.choice(lines)
 # print the random line
 print(random_line)
 
-# this is comments
