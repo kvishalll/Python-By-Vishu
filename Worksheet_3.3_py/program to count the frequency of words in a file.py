@@ -1,7 +1,7 @@
 # 4.	Write a Python program to count the frequency of words in a file
 
 # open the file in read mode
-with open(r"F:\Py By Vishu\Worksheet_3.3_py\pranav.txt", 'r') as file:
+with open(r"F:\Python By Vishu\Worksheet_3.3_py\vishu.txt", 'r') as file:
     # read the contents of the file into a string
     contents = file.read()
 

@@ -1,15 +1,5 @@
-# Write a Python program to read a random line from a file.
+def last(n): return n[-1]
 
-import random
+def sort_list_last(tuples): return sorted(tuples, key=last)
 
-# open the file in read mode
-with open(r"Yaha kar dena paste", 'r') as file:
-    # read all the lines into a list
-    lines = file.readlines()
-
-# choose a random line from the list
-random_line = random.choice(lines)
-
-# print the random line
-print(random_line)
-
+print(sort_list_last([(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]))
